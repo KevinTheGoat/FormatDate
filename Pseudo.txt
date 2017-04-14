@@ -1,0 +1,39 @@
+pseudoCode
+main(){
+takes in input from stdin but that gets directed
+from file
+validates the format, month, day, year
+prints to screen the information
+}
+
+validFormat(){
+checks to see if the string is in the m/d/yyyy format
+if it isn't it returns a false and doesnt not add to 
+strings to be printed
+
+}
+
+validateDay(){
+
+checks if the currrent day is a actual possible day
+return a true or false
+}
+
+validateMonth(){
+
+checks if the currrent month is a actual possible month
+return a true or false
+}
+
+
+validateYear(){
+
+checks if the currrent year is a actual possible year
+return a true or false
+}
+
+------------------------------------------------------
+secondMain(){
+takes input from the stdin and then out puts it in the right format
+to the correct file
+}
